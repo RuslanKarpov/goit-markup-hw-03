@@ -15,7 +15,7 @@
   --accent-color: #2196f3;
   --background-color: #2f303a;
   --logo-color: #000000;
-  --backing color:#F5F4FA;
+  --backing color: #F5F4FA;
   /* первичный цвет фона - #E5E5E5; */
   /*  вторичный цвет фона - #F5F4FA;*/
   /* основной фон кнопок партфолио #F5F4FA */
@@ -34,6 +34,7 @@ ul {
   margin-right: auto;
   width: 1440;
   outline: 2px solid tomato;
+  display: inline-block;
   /* width: 1230;
   padding-left: 15px;
   padding-right: 15px; */

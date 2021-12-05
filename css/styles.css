@@ -69,7 +69,10 @@ ul {
  
 .site-nav{
   display: flex;
-}  
+}
+  
+ 
+
 .site-nav .item+ .item{
   margin-left: 50px;
 }
@@ -88,7 +91,8 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  }
+  
+}
 .site-nav .link:hover,
 .site-nav .link:focus{
   color:var(--accent-color)
@@ -99,7 +103,8 @@ ul {
 /* Contacts */
 .contact-nav{
   display: flex;
- } 
+  
+} 
 .contact-nav .item + .item{
   margin-left: 50px;
 }
@@ -169,10 +174,7 @@ padding: 10px 32px;
   margin-top: 94px;
 }
 
-.feature-list .item{
-  width: 250px;
-  background-color: tomato;
-}
+.feature-list .item
 
 .feature-list .title {
   color: var(--titles-text-color-first);

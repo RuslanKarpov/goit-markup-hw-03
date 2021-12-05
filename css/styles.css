@@ -30,11 +30,12 @@ ul {
   list-style: none;
 }
 .container {
+  padding: 1230 px;
   margin-left: auto;
   margin-right: auto;
   width: 1440;
   outline: 2px solid tomato;
-  display: inline-block;
+  display: inline-block;  
   /* width: 1230;
   padding-left: 15px;
   padding-right: 15px; */
@@ -98,17 +99,23 @@ text-decoration: none;
   color: var(--accent-color);
 }
 /* Hero */
-
+.hero {
+  text-align: center;
+}
 
 .hero .hero-title {
-  color: var(--accent-color-text);
-  background-color: var(--titles-text-color-first);
+  margin-top: 0;
+ margin-bottom: 40px;
+  
   font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase
+text-transform: uppercase;
+color: var(--accent-color-text);
+background-color: var(--titles-text-color-first);
+
 }
 /* Hero button*/
 .button {
@@ -118,6 +125,10 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
+text-decoration: none;
+border-radius: 4px;
+padding: 10px 32px;
+text-align: ;
 
 }
 .button.primary:hover,
@@ -150,8 +161,14 @@ text-align: center;
 letter-spacing: 0.03em
 }
 /*Team */
-.team .team-title {
+.team{
+background-color: #F5F4FA;
+}
+.team-title {
   color: var(-titles-text-color-first);
+  background-color: tomato;
+  margin-top: 0;
+  margin-bottom: 50;
   font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -160,6 +177,8 @@ letter-spacing: 0.03em;
 }
 .team-list .title {
   color: var(--titles-text-color-first);
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -168,6 +187,8 @@ letter-spacing: 0.03em;
 }
 .team .text {
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 30;
   font-weight: normal;
 font-size: 16px;
 line-height:1.19;
@@ -179,17 +200,27 @@ letter-spacing: 0.03em;
   color: var(--titles-text-color-first);
   background-color: var(--backing color);
   cursor: pointer;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
   
 }
+
 .buttons .buttons-primary:hover, 
 .buttons .buttons-primary:focus {
+  
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   font-weight: 500;
-font-size: 16px;
+ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+border-radius: 4px;
+padding: 6px 22px;
+  
+ 
 }
   /* Portfolio */
  .portfolio .title {

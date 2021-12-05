@@ -29,7 +29,15 @@ body {
 ul {
   list-style: none;
 }
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440;
+  outline: 2px solid tomato;
+  /* width: 1230;
+  padding-left: 15px;
+  padding-right: 15px; */
+}
 /* header */
 .logo-first {
   font-family: Raleway, sans-serif;

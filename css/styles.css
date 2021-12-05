@@ -10,7 +10,6 @@
   /*  вторичный цвет фона - #F5F4FA;*/
   /* основной фон кнопок партфолио #F5F4FA */
 }
-
  h1,h2,h3,h4,h5,h6,p,ul{
   margin-top: 0;
   margin-bottom: 0;
@@ -26,11 +25,15 @@ ul {
 }
 /* Page-header */
 /* Main-nav */
+.container.main-nav{
+     height: 80px;
+  background-color: var(--accent-color-text);
+}
 .main-nav{
   display:flex ;
   align-items: center;
   justify-content: space-between;
-}
+ }
 .container {
    margin-left: auto;
   margin-right: auto;
@@ -59,16 +62,14 @@ ul {
  .nav {
    display: flex;
    margin-left: 93px;
+ 
  }
+ 
+   
+ 
 .site-nav{
   display: flex;
-  
-  
-}
-.site-nav .item {
-  background-color:  green;
-  /* margin-right: 50px; */
-}
+}  
 .site-nav .item+ .item{
   margin-left: 50px;
 }
@@ -87,8 +88,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
-}
+  }
 .site-nav .link:hover,
 .site-nav .link:focus{
   color:var(--accent-color)
@@ -99,8 +99,7 @@ ul {
 /* Contacts */
 .contact-nav{
   display: flex;
-  
-} 
+ } 
 .contact-nav .item + .item{
   margin-left: 50px;
 }
@@ -157,8 +156,6 @@ letter-spacing: 0.06em;
 text-decoration: none;
 border-radius: 4px;
 padding: 10px 32px;
-text-align: ;
-
 }
 .button.primary:hover,
 .button.primary:focus{
@@ -166,6 +163,17 @@ text-align: ;
  background-color: var(--accent-color)
 }
 /* Features - Приемущества */
+.feature-list{
+  display:flex ;
+  flex-wrap: wrap;
+  margin-top: 94px;
+}
+
+.feature-list .item{
+  width: 250px;
+  background-color: tomato;
+}
+
 .feature-list .title {
   color: var(--titles-text-color-first);
   font-weight: 700;

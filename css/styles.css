@@ -27,7 +27,9 @@ body {
   }
 ul {
   list-style: none;
+  padding: 0;
 }
+
 /* Page-header */
 /* Main-nav */
 .container.main-nav{
@@ -40,6 +42,7 @@ ul {
   justify-content: space-between;
  }
 .container {
+
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -169,26 +172,21 @@ padding: 10px 32px;
  background-color: var(--accent-color)
 }
 /* Features - Приемущества */
-.feature-list{
+.feature-list {
   display:flex ;
   flex-wrap: wrap;
   margin-top: 94px;
 }
+.feature-title {
 
-.feature-list .item{
-  display:flex ;
-}
-
-.feature-list .title {
-  display:flex ;
-  color: var(--titles-text-color-first);
-  font-weight: 700;
+color: var(--titles-text-color-first);
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.feature-list .text {
+.feature-text {
 
   color: var(--text-color);
   font-size: 14px;
@@ -199,18 +197,22 @@ letter-spacing: 0.03em;
 .about-us{
    text-align: center;
   padding-top: 94px;
+  padding-bottom: 94px;
   
  
 }
-.about-us > .list{
- display: flex;
+.about-us-list{
+ display:  flex;
+ flex-wrap: wrap;
+  padding-top: 50px;
+  margin-left: -30px;
+   }
+.about-us-list > .item {
+  margin-top: 0px;
+   margin-left: 30px;
   
-  
- 
-}
-.aboutus-title {
-  color: var(--titles-text-color-first);
-  font-weight: 700;
+color: var(--titles-text-color-first);
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
@@ -222,6 +224,7 @@ letter-spacing: 0.03em
 background-color: var(--backing color);
 padding-top: 94px;
 padding-bottom: 94px;
+text-align: center;
 }
 .team-container{
     height: 648px ;
@@ -231,11 +234,11 @@ padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
 }
-.team .team-head-title {
+.team >.team-head-title {
   
 color: var(-titles-text-color-first);
-margin-top: 0;
-bottom: 50;
+padding-top: 0;
+padding-bottom: 50;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -243,13 +246,11 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .team-list{
-padding: 0;
+padding-top: 50px;
 margin: 0;
 list-style: none;
-
 display: flex;
 flex-wrap: wrap ;
-
 margin-top: -50px;
 margin-left: -30px;
 }
@@ -271,7 +272,7 @@ letter-spacing: 0.03em;
 }
 .team .text {
   color: var(--text-color);
-  margin-top: 10px;
+  padding-top: 10px;
   
   font-weight: normal;
 font-size: 16px;
@@ -280,9 +281,10 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .card-content {
-  padding: 30px;
+  padding-top: 30px;
+  padding: bottom 30px; ;
   border-radius: 0px 0px 4px 4px;
- 
+
 }
 
 /* Buttons */

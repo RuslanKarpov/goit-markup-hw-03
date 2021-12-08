@@ -70,37 +70,27 @@ ul {
  .nav {
    display: flex;
    margin-left: 93px;
- 
- }
- 
-   
- 
-.site-nav{
+  }
+ .site-nav{
   display: flex;
 }
-  
- 
-
-.site-nav .item+ .item{
+ /* .site-nav .item+ .item{
   margin-left: 50px;
-}
-/* .site-nav .item:not(:last-child){
-  margin-right: 50px;
 } */
+.site-nav .item:not(:last-child){
+  margin-right: 50px;
+} 
 .site-nav .link {
- 
-  display: block;  /* делает элемент блочным */
+   display: block;  /* делает элемент блочным */
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--titles-text-color-first);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
-}
+ }
 .site-nav .link:hover,
 .site-nav .link:focus{
   color:var(--accent-color)
@@ -111,11 +101,10 @@ ul {
 /* Contacts */
 .contact-nav{
   display: flex;
-  
-} 
+  } 
 .contact-nav .item + .item{
   margin-left: 50px;
-}
+ }
 .contact-nav .nav-e-mail {
   color: var(--text-color);
   font-weight: 500;
@@ -207,15 +196,19 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 /* About us */
-.aboutUs{
- display: flex;
-  text-align: center;
+.about-us{
+   text-align: center;
   padding-top: 94px;
   
  
 }
-.aboutUs-title {
+.about-us > .list{
+ display: flex;
   
+  
+ 
+}
+.aboutus-title {
   color: var(--titles-text-color-first);
   font-weight: 700;
 font-size: 36px;

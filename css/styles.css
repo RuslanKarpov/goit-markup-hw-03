@@ -288,13 +288,22 @@ letter-spacing: 0.03em;
 }
 
 /* Buttons */
-.buttons {
+.buttons-list {
+  display: flex;
+  justify-content: center;
+
   color: var(--titles-text-color-first);
   background-color: var(--backing color);
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
   text-align: center;
+  }
+  .buttons .buttons-primary{
+    padding: 8px 22px;
+    border: none;
+    margin: 8px;
+    border-radius: 4px;
   }
 
 .buttons .buttons-primary:hover, 
@@ -313,6 +322,9 @@ padding: 6px 22px;
  
 }
   /* Portfolio */
+  .portfolio{
+    display: flex;
+  }
  .portfolio .title {
   color: var(--titles-text-color-first);
   font-weight: 700;

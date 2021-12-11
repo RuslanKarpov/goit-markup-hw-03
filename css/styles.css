@@ -35,7 +35,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
 /* Page-header */
 .page-header {
   height: 88px;
@@ -111,13 +110,11 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
 /* Contacts */
 .contact-nav {
   display: flex;
   margin-left: auto;
 }
-
 .contact-nav .item + .item {
   margin-left: 50px;
 }
@@ -150,7 +147,6 @@ ul {
   padding-bottom: 200px;
   text-align: center;
 }
-
 .hero-title.centered {
   text-align: center;
   margin-bottom: 30px;
@@ -177,7 +173,6 @@ ul {
   border-radius: 4px;
   padding: 10px 32px;
 }
-
 /* Features - Приемущества */
 .feature-list {
   display: flex;
@@ -219,7 +214,6 @@ ul {
 .about-us-list > .item {
   margin-top: 0px;
   margin-left: 30px;
-
   color: var(--titles-text-color-first);
   font-weight: 700;
   font-size: 36px;
@@ -230,7 +224,6 @@ ul {
 /*Team */
 .team {
   display: flex;
-
   background-color: var(--backing-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -294,14 +287,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 /* Buttons */
 .buttons-list {
   display: flex;
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
-
   color: var(--titles-text-color-first);
   background-color: var(--backing color);
   cursor: pointer;

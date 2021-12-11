@@ -86,7 +86,9 @@ ul {
 }
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
+
 /* .site-nav .item+ .item{
   margin-left: 50px;
 } */
@@ -307,18 +309,21 @@ ul {
   border-radius: 4px;
   text-align: center;
 }
-.buttons .buttons-primary {
+.buttons-primary {
   padding: 8px 22px;
   border-style: none;
   cursor: pointer;
   margin-left: 8px;
   border-radius: 4px;
 }
+.buttons-primary:not(:first-child) {
+  margin-left: 8px;
+}
 /* .buttons .buttons-primary:first-child {
   margin-left: -8px;
 } */
-.buttons .buttons-primary:hover,
-.buttons .buttons-primary:focus {
+.buttons-primary:hover,
+.buttons-primary:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   font-weight: 500;

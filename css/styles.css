@@ -115,6 +115,7 @@ ul {
 /* Contacts */
 .contact-nav {
   display: flex;
+  margin-left: auto;
 }
 .contact-nav .item + .item {
   margin-left: 50px;

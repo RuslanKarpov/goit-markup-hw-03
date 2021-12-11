@@ -220,6 +220,7 @@ ul {
 /*Team */
 .team {
   display: flex;
+
   background-color: var(--backing-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -249,7 +250,7 @@ ul {
   flex-wrap: wrap;
   margin-top: -50px;
   margin-left: -30px;
-  background-color: #fff;
+  background-color: var(--backing-color);
 }
 .team .item {
   /* outline: 4px solid teal; */
@@ -259,6 +260,8 @@ ul {
 }
 .card-content {
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--accent-color-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .title {
   padding-top: 30px;
@@ -301,9 +304,12 @@ ul {
   border-style: none;
   cursor: pointer;
   margin-left: 8px;
+
   border-radius: 4px;
 }
-
+/* .buttons .buttons-primary:first-child {
+  margin-left: -8px;
+} */
 .buttons .buttons-primary:hover,
 .buttons .buttons-primary:focus {
   color: var(--accent-color-text);

@@ -58,11 +58,8 @@ ul {
 .site-nav {
   display: flex;
 }
-/* .nav-item {
-  
-} */
-.nav-item:not(:last-child) {
-  margin-right: 40px;
+.site-nav .nav-item + .nav-item {
+  margin-left: 40px;
 }
 .logo-first {
   font-family: Raleway, sans-serif;
@@ -115,14 +112,18 @@ ul {
 /* Contacts */
 .contact-nav {
   display: flex;
+}
+.contact-nav .link {
+  display: block;
   margin-left: auto;
+  cursor: pointer;
 }
 .contact-nav .item + .item {
   margin-left: 50px;
 }
 .contact-nav .nav-e-mail {
-  color: var(--text-color);
   margin-left: 331px;
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

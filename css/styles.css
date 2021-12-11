@@ -57,6 +57,9 @@ ul {
 /* display: inline-block;  */
 
 /* header */
+.page-header {
+  height: 88px;
+}
 .logo-first {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
@@ -135,6 +138,7 @@ ul {
 }
 /* Hero */
 .hero {
+  height: 600px;
   background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -367,6 +371,7 @@ ul {
 
 /* Footer */
 .footer {
+  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);

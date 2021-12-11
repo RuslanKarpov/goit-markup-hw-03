@@ -38,6 +38,8 @@ ul {
 /* Page-header */
 .page-header {
   height: 88px;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   width: 1200px;
@@ -57,11 +59,11 @@ ul {
   display: flex;
 }
 .nav-item {
+  background-color: green;
 }
 .nav-item:not(:last-child) {
   margin-right: 40px;
 }
-
 .logo-first {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
@@ -89,9 +91,9 @@ ul {
 /* .site-nav .item+ .item{
   margin-left: 50px;
 } */
-.site-nav .item:not(:last-child) {
+/* .site-nav .item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 .site-nav .link {
   display: block; /* делает элемент блочным */
   padding-top: 32px;
@@ -288,7 +290,7 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Buttons */
-.buttons-list {
+.buttons .buttons-list {
   display: flex;
   justify-content: center;
   padding-top: 94px;
@@ -300,18 +302,18 @@ ul {
   border-radius: 4px;
   text-align: center;
 }
-.buttons-primary {
+.buttons .buttons-primary {
   padding: 8px 22px;
   border-style: none;
   cursor: pointer;
   margin-left: 8px;
   border-radius: 4px;
 }
-/* .buttons .buttons-primary:first-child {
-  margin-left: -8px;
-} */
-.buttons-primary:hover,
-.buttons-primary:focus {
+
+.buttons .buttons-primary:first-child {
+}
+.buttons .buttons-primary:hover,
+.buttons .buttons-primary:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   font-weight: 500;

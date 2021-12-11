@@ -341,6 +341,7 @@ ul {
     margin-right: 0;
   } */
 .portfolio-image {
+  border-bottom: 1px solid #eeeeee;
   width: 370;
   margin: 15px;
   /* margin: 15px; не работает  */

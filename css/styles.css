@@ -37,6 +37,9 @@ ul {
 }
 
 /* Page-header */
+.page-header {
+  height: 88px;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -47,17 +50,19 @@ ul {
 .nav-box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 88px;
+  /* justify-content: space-between; */
+  width: 100%;
   background-color: var(--accent-color-text);
 }
-
-/* display: inline-block;  */
-
-/* header */
-.page-header {
-  height: 88px;
+.site-nav {
+  display: flex;
 }
+.nav-item {
+}
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .logo-first {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);

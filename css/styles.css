@@ -342,11 +342,13 @@ ul {
   } */
 .portfolio-image {
   border-bottom: 1px solid #eeeeee;
-  width: 370;
+  width: 370px;
+  height: 484px;
   margin: 15px;
   /* margin: 15px; не работает  */
 }
 .portfolio-title {
+  margin-top: 20px;
   color: var(--titles-text-color-first);
   font-weight: 700;
   font-size: 18px;
@@ -354,6 +356,8 @@ ul {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
+  margin-top: 4px;
+  margin-bottom: 20px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.87;

@@ -304,7 +304,6 @@ ul {
   border-style: none;
   cursor: pointer;
   margin-left: 8px;
-
   border-radius: 4px;
 }
 /* .buttons .buttons-primary:first-child {
@@ -327,6 +326,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+  margin: -15px;
 }
 /* .portfolio-image{
      width: calc((100% - 60px) / 3);
@@ -338,11 +338,9 @@ ul {
   } */
 .portfolio-image {
   width: 370;
+  margin: 15px;
+  /* margin: 15px; не работает  */
 }
-
-/* .portfolio-image:nth-last-child(-n +3) {
-   margin-bottom: 0; 
-  }  */
 .portfolio-title {
   color: var(--titles-text-color-first);
   font-weight: 700;

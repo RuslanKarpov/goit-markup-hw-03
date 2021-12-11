@@ -58,9 +58,9 @@ ul {
 .site-nav {
   display: flex;
 }
-.nav-item {
-  background-color: green;
-}
+/* .nav-item {
+  
+} */
 .nav-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -258,7 +258,6 @@ ul {
   background-color: var(--backing-color);
 }
 .team .item {
-  /* outline: 4px solid teal; */
   flex-basis: calc(100% / 4-30px);
   margin-top: 50px;
   margin-left: 30px;
@@ -270,9 +269,7 @@ ul {
 }
 .title {
   padding-top: 30px;
-
   color: var(--titles-text-color-first);
-  /* margin-top: 30px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -290,30 +287,29 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Buttons */
-.buttons .buttons-list {
+
+.btns .btns-list {
   display: flex;
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
-  color: var(--titles-text-color-first);
-  background-color: var(--backing color);
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  text-align: center;
 }
-.buttons .buttons-primary {
+.btns .btn {
   padding: 8px 22px;
   border-style: none;
   cursor: pointer;
-  margin-left: 8px;
+  border-radius: 4px;
+  color: var(--titles-text-color-first);
+  background-color: var(--backing color);
+  text-align: center;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
-
-.buttons .buttons-primary:first-child {
+.btns-list .item + .item {
+  margin-left: 8px;
 }
-.buttons .buttons-primary:hover,
-.buttons .buttons-primary:focus {
+.btns .btn:hover,
+.btns .btn:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   font-weight: 500;

@@ -80,15 +80,13 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.nav {
+.nav-box {
   display: flex;
-  margin-left: 93px;
 }
 .site-nav {
   display: flex;
   margin-left: 93px;
 }
-
 /* .site-nav .item+ .item{
   margin-left: 50px;
 } */
@@ -117,14 +115,14 @@ ul {
 /* Contacts */
 .contact-nav {
   display: flex;
-  margin-left: auto;
 }
+
 .contact-nav .item + .item {
   margin-left: 50px;
 }
 .contact-nav .nav-e-mail {
-  margin-left: 311px;
   color: var(--text-color);
+  margin-left: 331px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -316,9 +314,6 @@ ul {
   cursor: pointer;
   margin-left: 8px;
   border-radius: 4px;
-}
-.buttons-primary:not(:first-child) {
-  margin-left: 8px;
 }
 /* .buttons .buttons-primary:first-child {
   margin-left: -8px;

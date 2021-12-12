@@ -38,7 +38,14 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+/* Скрыть кнопки */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 /* Page-header */
 .page-header {
   border: 1px solid var(--header-color);
@@ -179,9 +186,6 @@ ul {
   padding: 10px 32px;
 }
 /* Features - Приемущества */
-.hidden {
-  visibility: hidden;
-}
 .section {
   padding: 94px 0;
 }

@@ -67,10 +67,15 @@ ul {
 .site-nav .nav-item + .nav-item {
   margin-left: 40px;
 }
+.nav-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--accent-color-text);
+}
 .nav-logo {
   margin-right: 93px;
 }
-.logo-first {
+.logo-web {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   font-weight: 700;
@@ -79,7 +84,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo-second {
+.logo-studio {
   font-family: Raleway, sans-serif;
   color: var(--titles-text-color-first);
   font-weight: 700;
@@ -87,11 +92,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.nav-box {
-  display: flex;
-  align-items: center;
-  background-color: var(--accent-color-text);
-}
+
 .site-nav {
   display: flex;
 }

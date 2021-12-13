@@ -170,6 +170,7 @@ ul {
 .hero-button {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -357,7 +358,7 @@ ul {
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
-.f-logo-first {
+.f-logo-web {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -366,7 +367,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.f-logo-second {
+.f-logo-studio {
   color: var(--accent-color-text);
   font-family: Raleway;
   font-weight: 700;
